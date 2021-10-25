@@ -1,6 +1,6 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>users</ion-title>
+    <ion-title>Users</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -16,5 +16,12 @@
       <ion-label>{{ user.username }}</ion-label>
     </ion-item>
   </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end">
+    <ion-fab-button  color="success" [routerLink]="['/register']">
+      <ion-icon name="person-add-outline"></ion-icon>
+    </ion-fab-button>
+
+  </ion-fab>
 
 </ion-content>

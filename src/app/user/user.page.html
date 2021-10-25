@@ -21,15 +21,15 @@
         </ion-card-header>
         
         <ion-list>
-          <ion-item>{{ user.username  }}</ion-item>
-          <ion-item>{{ user.email  }}</ion-item>
+          <ion-item><strong>User Name:</strong> &nbsp;  {{ user.username  }}</ion-item>
+          <ion-item><strong>Email:</strong>   &nbsp; {{ user.email  }}</ion-item>
         </ion-list>
     
       </ion-card>
     
       <ion-fab vertical="bottom" horizontal="end">
         <ion-fab-button  color="secondary">
-          <ion-icon name="arrow-dropleft"></ion-icon>
+          <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
         </ion-fab-button>
     
         <ion-fab-list side="start" *ngIf="user">
