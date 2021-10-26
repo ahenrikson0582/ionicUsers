@@ -34,7 +34,7 @@ export class AppComponent {
     {
       title: 'Articles',
       url: '/articles',
-      icon: 'newspaper-outline'
+      icon: 'newspaper'
     }
   ];
 
